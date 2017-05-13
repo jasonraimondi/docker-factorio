@@ -1,5 +1,10 @@
 default: start
 
+restart: stop start
+
+stop:
+	docker-compose stop
+
 down:
 	docker-compose down
 
@@ -12,6 +17,6 @@ start:
 clear-saves:
 	rm game-data/saves/*
 
-reset-all: down clear-saves build start
+#reset-all: down stop restart clear-saves build start
 
 .PHONY: down build start clear-saves
