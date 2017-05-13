@@ -9,11 +9,11 @@
   "peaceful_mode": false,
   "autoplace_controls":
   {
-    "coal": {"frequency": "high", "size": "normal", "richness": "normal"},
-    "copper-ore": {"frequency": "normal", "size": "normal", "richness": "normal"},
-    "crude-oil": {"frequency": "high", "size": "normal", "richness": "high"},
+    "coal": {"frequency": "high", "size": "normal", "richness": "high"},
+    "copper-ore": {"frequency": "normal", "size": "normal", "richness": "high"},
+    "crude-oil": {"frequency": "high", "size": "high", "richness": "high"},
     "enemy-base": {"frequency": "normal", "size": "normal", "richness": "normal"},
-    "iron-ore": {"frequency": "high", "size": "normal", "richness": "normal"},
+    "iron-ore": {"frequency": "high", "size": "high", "richness": "normal"},
     "stone": {"frequency": "normal", "size": "high", "richness": "normal"},
     "uranium-ore": {"frequency": "normal", "size": "high", "richness": "high"}
   },
