@@ -8,4 +8,4 @@ services:
       - "27015:27015/udp"
     volumes:
       - ./game-data:/factorio
-#    restart: always
+    restart: always
