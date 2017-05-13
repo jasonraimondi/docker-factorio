@@ -5,17 +5,17 @@
   "water": "normal",
   "width": 0,
   "height": 0,
-  "starting_area": "normal",
+  "starting_area": "high",
   "peaceful_mode": false,
   "autoplace_controls":
   {
-    "coal": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "coal": {"frequency": "high", "size": "normal", "richness": "normal"},
     "copper-ore": {"frequency": "normal", "size": "normal", "richness": "normal"},
-    "crude-oil": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "crude-oil": {"frequency": "high", "size": "normal", "richness": "high"},
     "enemy-base": {"frequency": "normal", "size": "normal", "richness": "normal"},
-    "iron-ore": {"frequency": "normal", "size": "normal", "richness": "normal"},
-    "stone": {"frequency": "normal", "size": "normal", "richness": "normal"},
-    "uranium-ore": {"frequency": "normal", "size": "normal", "richness": "normal"}
+    "iron-ore": {"frequency": "high", "size": "normal", "richness": "normal"},
+    "stone": {"frequency": "normal", "size": "high", "richness": "normal"},
+    "uranium-ore": {"frequency": "normal", "size": "high", "richness": "high"}
   },
 
   "_comment_seed": "Use null for a random seed, number for a specific seed.",
